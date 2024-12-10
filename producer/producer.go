@@ -14,10 +14,10 @@ import (
 	"errors"
 	"fmt"
 	sarama "github.com/Shopify/sarama"
+	"github.com/kavindyasinthasilva/kafka-connector/avro"
+	"github.com/kavindyasinthasilva/kafka-connector/kafka"
+	log "github.com/kavindyasinthasilva/kafka-connector/log"
 	"github.com/prometheus/client_golang/prometheus"
-	"kafka-connector/avro"
-	"kafka-connector/kafka"
-	log "kafka-connector/log"
 	"reflect"
 )
 

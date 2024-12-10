@@ -7,16 +7,16 @@ import (
 	"encoding/gob"
 	"errors"
 	"fmt"
-	log "kafka-connector/log"
+	log "github.com/kavindyasinthasilva/kafka-connector/log"
 	"reflect"
 	"sort"
 	"sync"
 
 	sarama "github.com/Shopify/sarama"
+	avro "github.com/kavindyasinthasilva/kafka-connector/avro"
+	kafka "github.com/kavindyasinthasilva/kafka-connector/kafka"
+	message "github.com/kavindyasinthasilva/kafka-connector/message"
 	"github.com/prometheus/client_golang/prometheus"
-	avro "kafka-connector/avro"
-	kafka "kafka-connector/kafka"
-	message "kafka-connector/message"
 )
 
 // KConsumer represent the Consumer obect of a kafka

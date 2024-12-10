@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 	"github.com/Shopify/sarama"
+	log "github.com/kavindyasinthasilva/kafka-connector/log"
+	"github.com/kavindyasinthasilva/kafka-connector/message"
 	registry "github.com/landoop/schema-registry"
 	goavro "github.com/linkedin/goavro/v2"
-	log "kafka-connector/log"
-	"kafka-connector/message"
 	"reflect"
 	"sync"
 )

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"kafka-connector/message"
+	"github.com/kavindyasinthasilva/kafka-connector/message"
 )
 
 // ---------------------------------------------------------------------------

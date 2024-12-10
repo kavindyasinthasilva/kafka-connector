@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 	sarama "github.com/Shopify/sarama"
-	"kafka-connector/kafka"
-	message "kafka-connector/message"
+	"github.com/kavindyasinthasilva/kafka-connector/kafka"
+	message "github.com/kavindyasinthasilva/kafka-connector/message"
 )
 
 // CreateGroupConsumer will create a KConsumer based on a kafka consumer group

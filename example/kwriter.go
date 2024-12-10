@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	kafka "kafka-connector/kafka"
-	log "kafka-connector/log"
-	"kafka-connector/producer"
+	kafka "github.com/kavindyasinthasilva/kafka-connector/kafka"
+	log "github.com/kavindyasinthasilva/kafka-connector/log"
+	"github.com/kavindyasinthasilva/kafka-connector/producer"
 	"os"
 	"runtime"
 	"strconv"

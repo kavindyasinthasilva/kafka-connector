@@ -3,8 +3,8 @@ package kafka
 import (
 	"fmt"
 	"github.com/Shopify/sarama"
-	"kafka-connector/avro"
-	log "kafka-connector/log"
+	"github.com/kavindyasinthasilva/kafka-connector/avro"
+	log "github.com/kavindyasinthasilva/kafka-connector/log"
 	"os"
 	"strings"
 )

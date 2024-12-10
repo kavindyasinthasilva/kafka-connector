@@ -1,4 +1,4 @@
-module kafka-connector
+module github.com/kavindyasinthasilva/kafka-connector
 
 go 1.12
 

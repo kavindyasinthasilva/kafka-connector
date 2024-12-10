@@ -3,13 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	log "kafka-connector/log"
+	log "github.com/kavindyasinthasilva/kafka-connector/log"
 	"os"
 	"sync"
 
-	consumer "kafka-connector/consumer"
-	kafka "kafka-connector/kafka"
-	"kafka-connector/message"
+	consumer "github.com/kavindyasinthasilva/kafka-connector/consumer"
+	kafka "github.com/kavindyasinthasilva/kafka-connector/kafka"
+	"github.com/kavindyasinthasilva/kafka-connector/message"
 )
 
 // ---------------------------------------------------------------------------

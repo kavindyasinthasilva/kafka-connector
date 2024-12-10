@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	sarama "github.com/Shopify/sarama"
-	kafka "kafka-connector/kafka"
-	message "kafka-connector/message"
+	kafka "github.com/kavindyasinthasilva/kafka-connector/kafka"
+	message "github.com/kavindyasinthasilva/kafka-connector/message"
 )
 
 // CreatePartitionConsumer will create a simple consumer without any GroupID
